@@ -69,7 +69,7 @@ console.log('User 2 info:', user2);
 console.log(' ');
 console.log('-- EXERCISE 3');
 
-let rounds = 0;
+let round = 0;
 let player1 = 0;
 let player2 = 0;
 
@@ -78,19 +78,20 @@ function rollDice(){
 }
 
 while (player1 !== 3 && player2 !== 3 ) {
-  rounds++;
+  round++;
   player1 = rollDice();
   player2 = rollDice();
- console.log('ROUND ' + rounds + ': ', player1, player2);
- declareWinner();
+ console.log('ROUND ' + round + ': ', player1, player2);
+ result();
 }
 
-function declareWinner(){
+function result(){
  if(player1 == 3 && player2 !==3){
-  console.log('WINNER: Player 1 - in ROUND ' + rounds);
+  console.log('WINNER: Player 1 - in ROUND ' + round);
  }else if(player1 !==3 && player2 ==3){
-  console.log('WINNER: Player 2 - in ROUND ' + rounds);
+  console.log('WINNER: Player 2 - in ROUND ' + round);
  }else if(player1 ==3 && player2 ==3) {
-  console.log('DRAW: in ROUND ' + rounds);
+  console.log('DRAW: in ROUND ' + round);
  }
 }
+
