@@ -1,1 +1,1 @@
-Repository for JavaScript Homeworks at SkilWill
+Repository for WEB Development homeworks at SkilWill
