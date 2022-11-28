@@ -1,3 +1,1 @@
-# web-homeworks
-
-Repository for Javascript Homeworks
+Repository for JavaScript Homeworks at SkilWill
