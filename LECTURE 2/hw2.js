@@ -59,7 +59,8 @@ const user1 = {
 const user2 = {
   ...user1
 }
-console.log(user2)
+console.log('User 1 info:', user1);
+console.log('User 2 info:', user2);
 
 
 
@@ -93,7 +94,3 @@ function declareWinner(){
   console.log('DRAW: in ROUND ' + rounds);
  }
 }
-
-
-
-
