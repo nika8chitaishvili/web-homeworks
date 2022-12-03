@@ -8,11 +8,11 @@ console.log(' ');
 console.log('-- TASK 1');
 
 function rand(num1,num2,...numbers){
-    let mult=0;
+    let mult=1;
     for(i of numbers){
-        mult*=i
+        mult*=i;
     }
-    return num1+num2, mult;
+    return [num1+num2, mult];
 }
 console.log('[Sum, Multiply]: '+ '['+rand(1,2,3,4,5,6,7,8,9,10)+']');
 
