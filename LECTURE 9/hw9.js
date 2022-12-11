@@ -11,3 +11,12 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+/// TASK 2
+
+
+const task2BTN = document.getElementById("task2BTN");
+
+task2BTN.onclick = function() {
+ document.body.style.backgroundColor = 'red';
+}
