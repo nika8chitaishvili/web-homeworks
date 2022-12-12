@@ -61,7 +61,7 @@ averageBTN.addEventListener("click", () => {
   let inputAverage = document.querySelector("#inputAverage").value;
   let inputArr = inputAverage.split(";").map((v) => Number(v));
   let sum = inputArr.reduce((a, b) => a + b, 0);
-  alert.console.log(sum / inputArr.length);
+  console.log(sum / inputArr.length);
 });
 
 
