@@ -23,15 +23,15 @@
     <div id="task1">
         <h2>TASK 1</h2>
         <h4>MODAL OPENER</h3>
-        <button id="modalBTN">Click to open Modal</button>
+        <button id="modalBTN">CLICK for MODAL</button>
 
         <!-- The Modal -->
-        <div id="modalDIV" class="modal">
+        <div id="task1modal" class="modal">
             
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>TEXT for MODAL</p>
+                <p>TASK 1 MODAL</p>
             </div>
             
         </div>
@@ -40,13 +40,44 @@
     <div id="task2">
         <h2>TASK 2</h2>
         <h4>CHANGE BACKGROUND COLOR</h3>
-        <input type="text" id="userInput">
-        <button id="task2BTN">CHANGE COLOR</button>
+        <input type="text" id="color">
+        <div class="buttons">
+            <button id="colorBTN">CHANGE COLOR</button>
+            <button id="colorReverseBTN">REVERSE COLOR</button>
+        </div>
+
+        <!-- TASK2 MODAL -->
+        <div id="task2modal" class="modal">
+            
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span id="task2span" class="close">&times;</span>
+                <p>PLEASE ENTER VALID COLOR : </p>
+                <p>red / blue / green / black / white</p>
+            </div>
+            
+        </div>
     </div>
 
     <div id="task3">
         <h2>TASK 3</h2>
         <h4>CALCULATE AVERAGE</h3>
+        <input type="text" id="inputAverage" >
+        <div class="buttons">
+            <button id="averageBTN">CALCULATE</button>
+            <button id="resetBTN">RESET CALCULATOR</button>
+        </div>
+
+        <!-- TASK3 MODAL -->
+        <div id="task3modal" class="modal">
+            
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span id="task3span" class="close">&times;</span>
+                <p>'AVERAGE : '</p> 
+            </div>
+            
+        </div>
     </div>
 </div>
 
