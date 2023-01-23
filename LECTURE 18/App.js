@@ -36,7 +36,7 @@ function App() {
           toDoList={toDoList}
           setToDoList={setToDoList}
         />
-        {/* <div className="container done"></div> */}
+
         <DisplayDone
           doneList={doneList}
           setDone={setDone}
