@@ -1,1 +1,1 @@
-Repository for WEB Development homeworks at SkilWill
+Repository for WEB Development homeworks at SkillWill
