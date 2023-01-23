@@ -1,0 +1,98 @@
+* {
+  background-color: rgb(79, 90, 215);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header{
+  margin: 12px;
+}
+
+input {
+  margin: 8px 0px;
+  border-radius: 5px;
+  border-color: rgb(224, 218, 134);
+  background-color: rgb(224, 218, 134);
+  color: rgb(79, 90, 215);
+  font-weight: bold;
+}
+
+button {
+  font-weight: bold;
+  min-width: 80px;
+  border-radius: 5px;
+ 
+  background-color: rgb(224, 218, 134);
+  color: rgb(79, 90, 215);
+  margin: 0 6px 16px;
+}
+
+.button-delete{
+  background-color: rgb(160, 89, 195);
+  color: rgb(224, 218, 134);
+}
+
+.header-toDo{
+  color: rgb(224, 218, 134);
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.container-header{
+  color: rgb(224, 218, 134);
+  font-weight: bold;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 100px;
+}
+
+.big-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgb(59, 69, 180);
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  width: 400px;
+  min-height: 200px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(224, 218, 134);
+  color: rgb(224, 218, 134);
+  align-items: center;
+  padding: 0px;
+}
+
+.within-containers {
+  background-color: rgb(59, 69, 180);
+  padding: 0px;
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(224, 218, 134);
+  border-radius: 5px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(224, 218, 134);
+}
+
+.container-list{
+  padding: 0px;
+  background-color: rgb(59, 69, 180);
+}
+
+.container-header{
+  background-color: rgb(59, 69, 180);
+}
+
+.display {
+  background-color: rgb(59, 69, 180);
+}
